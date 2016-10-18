@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B54EFC7BCE48AEDB5E66AE61 /* libPods-CustomModal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B321CC85E701BA38C24B7D97 /* libPods-CustomModal.a */; };
+		C82413E11DB6792500DB7813 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C82413E01DB6792500DB7813 /* main.m */; };
+		C82413E41DB6792500DB7813 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C82413E31DB6792500DB7813 /* AppDelegate.m */; };
+		C82413E71DB6792500DB7813 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C82413E61DB6792500DB7813 /* ViewController.m */; };
+		C82413EA1DB6792500DB7813 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C82413E81DB6792500DB7813 /* Main.storyboard */; };
+		C82413EC1DB6792500DB7813 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C82413EB1DB6792500DB7813 /* Assets.xcassets */; };
+		C82413EF1DB6792500DB7813 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C82413ED1DB6792500DB7813 /* LaunchScreen.storyboard */; };
+		C82414231DB67A9A00DB7813 /* YOHOCommentBigPicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C82413F91DB67A9A00DB7813 /* YOHOCommentBigPicViewController.m */; };
+		C82414241DB67A9A00DB7813 /* YOHOCommentBigPicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C82413FA1DB67A9A00DB7813 /* YOHOCommentBigPicViewController.xib */; };
+		C82414251DB67A9A00DB7813 /* YOHOHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = C82413FC1DB67A9A00DB7813 /* YOHOHomeController.m */; };
+		C82414271DB67A9A00DB7813 /* YOHOARHomeBusinessDistrictModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C82414001DB67A9A00DB7813 /* YOHOARHomeBusinessDistrictModel.m */; };
+		C82414281DB67A9A00DB7813 /* YOHOARHomeBusinessStoreModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C82414021DB67A9A00DB7813 /* YOHOARHomeBusinessStoreModel.m */; };
+		C82414291DB67A9A00DB7813 /* YOHOARHomeCommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C82414041DB67A9A00DB7813 /* YOHOARHomeCommentModel.m */; };
+		C824142E1DB67A9A00DB7813 /* YOHOARCustomTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = C824140B1DB67A9A00DB7813 /* YOHOARCustomTransitionAnimator.m */; };
+		C824142F1DB67A9A00DB7813 /* YOHOARHomeLoadDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C824140D1DB67A9A00DB7813 /* YOHOARHomeLoadDataTool.m */; };
+		C82414351DB67A9A00DB7813 /* YOHOARHomeCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C824141A1DB67A9A00DB7813 /* YOHOARHomeCommentCell.m */; };
+		C82414361DB67A9A00DB7813 /* YOHOARHomeCommentPicView.m in Sources */ = {isa = PBXBuildFile; fileRef = C824141C1DB67A9A00DB7813 /* YOHOARHomeCommentPicView.m */; };
+		C82414371DB67A9B00DB7813 /* YOHOARHomeCommentToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = C824141E1DB67A9A00DB7813 /* YOHOARHomeCommentToolView.m */; };
+		C82414381DB67A9B00DB7813 /* YOHOARHomeCommentToolView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C824141F1DB67A9A00DB7813 /* YOHOARHomeCommentToolView.xib */; };
+		C824143C1DB67AF700DB7813 /* comments.plist in Resources */ = {isa = PBXBuildFile; fileRef = C824143B1DB67AF700DB7813 /* comments.plist */; };
+		C824145A1DB67D1300DB7813 /* NSArray+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = C82414411DB67D1300DB7813 /* NSArray+Addition.m */; };
+		C824145B1DB67D1300DB7813 /* NSAttributedString+Additon.m in Sources */ = {isa = PBXBuildFile; fileRef = C82414431DB67D1300DB7813 /* NSAttributedString+Additon.m */; };
+		C824145C1DB67D1300DB7813 /* NSObject+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = C82414451DB67D1300DB7813 /* NSObject+Addition.m */; };
+		C824145D1DB67D1300DB7813 /* NSObject+Formula.m in Sources */ = {isa = PBXBuildFile; fileRef = C82414471DB67D1300DB7813 /* NSObject+Formula.m */; };
+		C824145E1DB67D1300DB7813 /* NSString+YOHODealWithUrlString.m in Sources */ = {isa = PBXBuildFile; fileRef = C82414491DB67D1300DB7813 /* NSString+YOHODealWithUrlString.m */; };
+		C824145F1DB67D1300DB7813 /* UIButton+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = C824144B1DB67D1300DB7813 /* UIButton+Addition.m */; };
+		C82414601DB67D1300DB7813 /* UIColor+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = C824144D1DB67D1300DB7813 /* UIColor+Addition.m */; };
+		C82414611DB67D1300DB7813 /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C824144F1DB67D1300DB7813 /* UIImage+Additions.m */; };
+		C82414621DB67D1300DB7813 /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = C82414511DB67D1300DB7813 /* UIImage+Blur.m */; };
+		C82414631DB67D1300DB7813 /* UIImage+ScaleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C82414531DB67D1300DB7813 /* UIImage+ScaleImage.m */; };
+		C82414641DB67D1300DB7813 /* UIImageView+YOHOUseCacheImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C82414551DB67D1300DB7813 /* UIImageView+YOHOUseCacheImage.m */; };
+		C82414651DB67D1300DB7813 /* UILabel+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = C82414571DB67D1300DB7813 /* UILabel+Addition.m */; };
+		C82414661DB67D1300DB7813 /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = C82414591DB67D1300DB7813 /* UIView+Addition.m */; };
+		C82414691DB67D3600DB7813 /* YOHOConst.m in Sources */ = {isa = PBXBuildFile; fileRef = C82414681DB67D3600DB7813 /* YOHOConst.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B321CC85E701BA38C24B7D97 /* libPods-CustomModal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomModal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B599FBFA07820D02F27B901E /* Pods-CustomModal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomModal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomModal/Pods-CustomModal.debug.xcconfig"; sourceTree = "<group>"; };
+		C82413DC1DB6792500DB7813 /* CustomModal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomModal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C82413E01DB6792500DB7813 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C82413E21DB6792500DB7813 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C82413E31DB6792500DB7813 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C82413E51DB6792500DB7813 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C82413E61DB6792500DB7813 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C82413E91DB6792500DB7813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C82413EB1DB6792500DB7813 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C82413EE1DB6792500DB7813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C82413F01DB6792500DB7813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C82413F81DB67A9A00DB7813 /* YOHOCommentBigPicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOHOCommentBigPicViewController.h; sourceTree = "<group>"; };
+		C82413F91DB67A9A00DB7813 /* YOHOCommentBigPicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOHOCommentBigPicViewController.m; sourceTree = "<group>"; };
+		C82413FA1DB67A9A00DB7813 /* YOHOCommentBigPicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YOHOCommentBigPicViewController.xib; sourceTree = "<group>"; };
+		C82413FB1DB67A9A00DB7813 /* YOHOHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOHOHomeController.h; sourceTree = "<group>"; };
+		C82413FC1DB67A9A00DB7813 /* YOHOHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOHOHomeController.m; sourceTree = "<group>"; };
+		C82413FF1DB67A9A00DB7813 /* YOHOARHomeBusinessDistrictModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOHOARHomeBusinessDistrictModel.h; sourceTree = "<group>"; };
+		C82414001DB67A9A00DB7813 /* YOHOARHomeBusinessDistrictModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOHOARHomeBusinessDistrictModel.m; sourceTree = "<group>"; };
+		C82414011DB67A9A00DB7813 /* YOHOARHomeBusinessStoreModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOHOARHomeBusinessStoreModel.h; sourceTree = "<group>"; };
+		C82414021DB67A9A00DB7813 /* YOHOARHomeBusinessStoreModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOHOARHomeBusinessStoreModel.m; sourceTree = "<group>"; };
+		C82414031DB67A9A00DB7813 /* YOHOARHomeCommentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOHOARHomeCommentModel.h; sourceTree = "<group>"; };
+		C82414041DB67A9A00DB7813 /* YOHOARHomeCommentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOHOARHomeCommentModel.m; sourceTree = "<group>"; };
+		C824140A1DB67A9A00DB7813 /* YOHOARCustomTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOHOARCustomTransitionAnimator.h; sourceTree = "<group>"; };
+		C824140B1DB67A9A00DB7813 /* YOHOARCustomTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOHOARCustomTransitionAnimator.m; sourceTree = "<group>"; };
+		C824140C1DB67A9A00DB7813 /* YOHOARHomeLoadDataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOHOARHomeLoadDataTool.h; sourceTree = "<group>"; };
+		C824140D1DB67A9A00DB7813 /* YOHOARHomeLoadDataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOHOARHomeLoadDataTool.m; sourceTree = "<group>"; };
+		C82414191DB67A9A00DB7813 /* YOHOARHomeCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOHOARHomeCommentCell.h; sourceTree = "<group>"; };
+		C824141A1DB67A9A00DB7813 /* YOHOARHomeCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOHOARHomeCommentCell.m; sourceTree = "<group>"; };
+		C824141B1DB67A9A00DB7813 /* YOHOARHomeCommentPicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOHOARHomeCommentPicView.h; sourceTree = "<group>"; };
+		C824141C1DB67A9A00DB7813 /* YOHOARHomeCommentPicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOHOARHomeCommentPicView.m; sourceTree = "<group>"; };
+		C824141D1DB67A9A00DB7813 /* YOHOARHomeCommentToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOHOARHomeCommentToolView.h; sourceTree = "<group>"; };
+		C824141E1DB67A9A00DB7813 /* YOHOARHomeCommentToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOHOARHomeCommentToolView.m; sourceTree = "<group>"; };
+		C824141F1DB67A9A00DB7813 /* YOHOARHomeCommentToolView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YOHOARHomeCommentToolView.xib; sourceTree = "<group>"; };
+		C824143B1DB67AF700DB7813 /* comments.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = comments.plist; sourceTree = "<group>"; };
+		C824143D1DB67B8A00DB7813 /* CustomModal-PCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomModal-PCH.pch"; sourceTree = "<group>"; };
+		C824143F1DB67D1300DB7813 /* Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Addition.h; sourceTree = "<group>"; };
+		C82414401DB67D1300DB7813 /* NSArray+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Addition.h"; sourceTree = "<group>"; };
+		C82414411DB67D1300DB7813 /* NSArray+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Addition.m"; sourceTree = "<group>"; };
+		C82414421DB67D1300DB7813 /* NSAttributedString+Additon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Additon.h"; sourceTree = "<group>"; };
+		C82414431DB67D1300DB7813 /* NSAttributedString+Additon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+Additon.m"; sourceTree = "<group>"; };
+		C82414441DB67D1300DB7813 /* NSObject+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Addition.h"; sourceTree = "<group>"; };
+		C82414451DB67D1300DB7813 /* NSObject+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Addition.m"; sourceTree = "<group>"; };
+		C82414461DB67D1300DB7813 /* NSObject+Formula.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Formula.h"; sourceTree = "<group>"; };
+		C82414471DB67D1300DB7813 /* NSObject+Formula.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Formula.m"; sourceTree = "<group>"; };
+		C82414481DB67D1300DB7813 /* NSString+YOHODealWithUrlString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YOHODealWithUrlString.h"; sourceTree = "<group>"; };
+		C82414491DB67D1300DB7813 /* NSString+YOHODealWithUrlString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YOHODealWithUrlString.m"; sourceTree = "<group>"; };
+		C824144A1DB67D1300DB7813 /* UIButton+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Addition.h"; sourceTree = "<group>"; };
+		C824144B1DB67D1300DB7813 /* UIButton+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Addition.m"; sourceTree = "<group>"; };
+		C824144C1DB67D1300DB7813 /* UIColor+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Addition.h"; sourceTree = "<group>"; };
+		C824144D1DB67D1300DB7813 /* UIColor+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Addition.m"; sourceTree = "<group>"; };
+		C824144E1DB67D1300DB7813 /* UIImage+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Additions.h"; sourceTree = "<group>"; };
+		C824144F1DB67D1300DB7813 /* UIImage+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Additions.m"; sourceTree = "<group>"; };
+		C82414501DB67D1300DB7813 /* UIImage+Blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Blur.h"; sourceTree = "<group>"; };
+		C82414511DB67D1300DB7813 /* UIImage+Blur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Blur.m"; sourceTree = "<group>"; };
+		C82414521DB67D1300DB7813 /* UIImage+ScaleImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ScaleImage.h"; sourceTree = "<group>"; };
+		C82414531DB67D1300DB7813 /* UIImage+ScaleImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ScaleImage.m"; sourceTree = "<group>"; };
+		C82414541DB67D1300DB7813 /* UIImageView+YOHOUseCacheImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+YOHOUseCacheImage.h"; sourceTree = "<group>"; };
+		C82414551DB67D1300DB7813 /* UIImageView+YOHOUseCacheImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+YOHOUseCacheImage.m"; sourceTree = "<group>"; };
+		C82414561DB67D1300DB7813 /* UILabel+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Addition.h"; sourceTree = "<group>"; };
+		C82414571DB67D1300DB7813 /* UILabel+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Addition.m"; sourceTree = "<group>"; };
+		C82414581DB67D1300DB7813 /* UIView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
+		C82414591DB67D1300DB7813 /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
+		C82414671DB67D3600DB7813 /* YOHOConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOHOConst.h; sourceTree = "<group>"; };
+		C82414681DB67D3600DB7813 /* YOHOConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOHOConst.m; sourceTree = "<group>"; };
+		D63DE385652F81AA0D1AB959 /* Pods-CustomModal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomModal.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomModal/Pods-CustomModal.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C82413D91DB6792400DB7813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54EFC7BCE48AEDB5E66AE61 /* libPods-CustomModal.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51EB3F9B29C1A61007C8FE34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B599FBFA07820D02F27B901E /* Pods-CustomModal.debug.xcconfig */,
+				D63DE385652F81AA0D1AB959 /* Pods-CustomModal.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C82413D31DB6792400DB7813 = {
+			isa = PBXGroup;
+			children = (
+				C82413DE1DB6792500DB7813 /* CustomModal */,
+				C82413DD1DB6792500DB7813 /* Products */,
+				51EB3F9B29C1A61007C8FE34 /* Pods */,
+				D3E6A7E6DFE8D51F4AC8B8EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C82413DD1DB6792500DB7813 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C82413DC1DB6792500DB7813 /* CustomModal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C82413DE1DB6792500DB7813 /* CustomModal */ = {
+			isa = PBXGroup;
+			children = (
+				C824143E1DB67D1300DB7813 /* Additions */,
+				C82413F61DB67A9A00DB7813 /* CustomModal */,
+				C82413E21DB6792500DB7813 /* AppDelegate.h */,
+				C82413E31DB6792500DB7813 /* AppDelegate.m */,
+				C82413E51DB6792500DB7813 /* ViewController.h */,
+				C82413E61DB6792500DB7813 /* ViewController.m */,
+				C82413E81DB6792500DB7813 /* Main.storyboard */,
+				C82413EB1DB6792500DB7813 /* Assets.xcassets */,
+				C82413ED1DB6792500DB7813 /* LaunchScreen.storyboard */,
+				C82413F01DB6792500DB7813 /* Info.plist */,
+				C82413DF1DB6792500DB7813 /* Supporting Files */,
+				C824143D1DB67B8A00DB7813 /* CustomModal-PCH.pch */,
+				C82414671DB67D3600DB7813 /* YOHOConst.h */,
+				C82414681DB67D3600DB7813 /* YOHOConst.m */,
+			);
+			path = CustomModal;
+			sourceTree = "<group>";
+		};
+		C82413DF1DB6792500DB7813 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C82413E01DB6792500DB7813 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C82413F61DB67A9A00DB7813 /* CustomModal */ = {
+			isa = PBXGroup;
+			children = (
+				C82413F71DB67A9A00DB7813 /* Controller */,
+				C82413FD1DB67A9A00DB7813 /* Model */,
+				C82414051DB67A9A00DB7813 /* Other */,
+				C824140E1DB67A9A00DB7813 /* View */,
+			);
+			path = CustomModal;
+			sourceTree = "<group>";
+		};
+		C82413F71DB67A9A00DB7813 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C82413F81DB67A9A00DB7813 /* YOHOCommentBigPicViewController.h */,
+				C82413F91DB67A9A00DB7813 /* YOHOCommentBigPicViewController.m */,
+				C82413FA1DB67A9A00DB7813 /* YOHOCommentBigPicViewController.xib */,
+				C82413FB1DB67A9A00DB7813 /* YOHOHomeController.h */,
+				C82413FC1DB67A9A00DB7813 /* YOHOHomeController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C82413FD1DB67A9A00DB7813 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C82413FF1DB67A9A00DB7813 /* YOHOARHomeBusinessDistrictModel.h */,
+				C82414001DB67A9A00DB7813 /* YOHOARHomeBusinessDistrictModel.m */,
+				C82414011DB67A9A00DB7813 /* YOHOARHomeBusinessStoreModel.h */,
+				C82414021DB67A9A00DB7813 /* YOHOARHomeBusinessStoreModel.m */,
+				C82414031DB67A9A00DB7813 /* YOHOARHomeCommentModel.h */,
+				C82414041DB67A9A00DB7813 /* YOHOARHomeCommentModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C82414051DB67A9A00DB7813 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				C824143B1DB67AF700DB7813 /* comments.plist */,
+				C824140A1DB67A9A00DB7813 /* YOHOARCustomTransitionAnimator.h */,
+				C824140B1DB67A9A00DB7813 /* YOHOARCustomTransitionAnimator.m */,
+				C824140C1DB67A9A00DB7813 /* YOHOARHomeLoadDataTool.h */,
+				C824140D1DB67A9A00DB7813 /* YOHOARHomeLoadDataTool.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		C824140E1DB67A9A00DB7813 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C82414181DB67A9A00DB7813 /* Comment */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C82414181DB67A9A00DB7813 /* Comment */ = {
+			isa = PBXGroup;
+			children = (
+				C82414191DB67A9A00DB7813 /* YOHOARHomeCommentCell.h */,
+				C824141A1DB67A9A00DB7813 /* YOHOARHomeCommentCell.m */,
+				C824141B1DB67A9A00DB7813 /* YOHOARHomeCommentPicView.h */,
+				C824141C1DB67A9A00DB7813 /* YOHOARHomeCommentPicView.m */,
+				C824141D1DB67A9A00DB7813 /* YOHOARHomeCommentToolView.h */,
+				C824141E1DB67A9A00DB7813 /* YOHOARHomeCommentToolView.m */,
+				C824141F1DB67A9A00DB7813 /* YOHOARHomeCommentToolView.xib */,
+			);
+			path = Comment;
+			sourceTree = "<group>";
+		};
+		C824143E1DB67D1300DB7813 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				C824143F1DB67D1300DB7813 /* Addition.h */,
+				C82414401DB67D1300DB7813 /* NSArray+Addition.h */,
+				C82414411DB67D1300DB7813 /* NSArray+Addition.m */,
+				C82414421DB67D1300DB7813 /* NSAttributedString+Additon.h */,
+				C82414431DB67D1300DB7813 /* NSAttributedString+Additon.m */,
+				C82414441DB67D1300DB7813 /* NSObject+Addition.h */,
+				C82414451DB67D1300DB7813 /* NSObject+Addition.m */,
+				C82414461DB67D1300DB7813 /* NSObject+Formula.h */,
+				C82414471DB67D1300DB7813 /* NSObject+Formula.m */,
+				C82414481DB67D1300DB7813 /* NSString+YOHODealWithUrlString.h */,
+				C82414491DB67D1300DB7813 /* NSString+YOHODealWithUrlString.m */,
+				C824144A1DB67D1300DB7813 /* UIButton+Addition.h */,
+				C824144B1DB67D1300DB7813 /* UIButton+Addition.m */,
+				C824144C1DB67D1300DB7813 /* UIColor+Addition.h */,
+				C824144D1DB67D1300DB7813 /* UIColor+Addition.m */,
+				C824144E1DB67D1300DB7813 /* UIImage+Additions.h */,
+				C824144F1DB67D1300DB7813 /* UIImage+Additions.m */,
+				C82414501DB67D1300DB7813 /* UIImage+Blur.h */,
+				C82414511DB67D1300DB7813 /* UIImage+Blur.m */,
+				C82414521DB67D1300DB7813 /* UIImage+ScaleImage.h */,
+				C82414531DB67D1300DB7813 /* UIImage+ScaleImage.m */,
+				C82414541DB67D1300DB7813 /* UIImageView+YOHOUseCacheImage.h */,
+				C82414551DB67D1300DB7813 /* UIImageView+YOHOUseCacheImage.m */,
+				C82414561DB67D1300DB7813 /* UILabel+Addition.h */,
+				C82414571DB67D1300DB7813 /* UILabel+Addition.m */,
+				C82414581DB67D1300DB7813 /* UIView+Addition.h */,
+				C82414591DB67D1300DB7813 /* UIView+Addition.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		D3E6A7E6DFE8D51F4AC8B8EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B321CC85E701BA38C24B7D97 /* libPods-CustomModal.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C82413DB1DB6792400DB7813 /* CustomModal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C82413F31DB6792500DB7813 /* Build configuration list for PBXNativeTarget "CustomModal" */;
+			buildPhases = (
+				7A3DD8F1C0E5D00116B6364D /* [CP] Check Pods Manifest.lock */,
+				C82413D81DB6792400DB7813 /* Sources */,
+				C82413D91DB6792400DB7813 /* Frameworks */,
+				C82413DA1DB6792400DB7813 /* Resources */,
+				53F6B8C420B61B253380F141 /* [CP] Embed Pods Frameworks */,
+				37F04E27B70869BD3FBB0326 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomModal;
+			productName = CustomModal;
+			productReference = C82413DC1DB6792500DB7813 /* CustomModal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C82413D41DB6792400DB7813 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = com.Ari;
+				TargetAttributes = {
+					C82413DB1DB6792400DB7813 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 55EMPZWFA4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C82413D71DB6792400DB7813 /* Build configuration list for PBXProject "CustomModal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C82413D31DB6792400DB7813;
+			productRefGroup = C82413DD1DB6792500DB7813 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C82413DB1DB6792400DB7813 /* CustomModal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C82413DA1DB6792400DB7813 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C824143C1DB67AF700DB7813 /* comments.plist in Resources */,
+				C82413EF1DB6792500DB7813 /* LaunchScreen.storyboard in Resources */,
+				C82413EC1DB6792500DB7813 /* Assets.xcassets in Resources */,
+				C82413EA1DB6792500DB7813 /* Main.storyboard in Resources */,
+				C82414241DB67A9A00DB7813 /* YOHOCommentBigPicViewController.xib in Resources */,
+				C82414381DB67A9B00DB7813 /* YOHOARHomeCommentToolView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37F04E27B70869BD3FBB0326 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomModal/Pods-CustomModal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53F6B8C420B61B253380F141 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomModal/Pods-CustomModal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A3DD8F1C0E5D00116B6364D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C82413D81DB6792400DB7813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82414351DB67A9A00DB7813 /* YOHOARHomeCommentCell.m in Sources */,
+				C82414251DB67A9A00DB7813 /* YOHOHomeController.m in Sources */,
+				C824145A1DB67D1300DB7813 /* NSArray+Addition.m in Sources */,
+				C824142E1DB67A9A00DB7813 /* YOHOARCustomTransitionAnimator.m in Sources */,
+				C82413E71DB6792500DB7813 /* ViewController.m in Sources */,
+				C82414631DB67D1300DB7813 /* UIImage+ScaleImage.m in Sources */,
+				C824145F1DB67D1300DB7813 /* UIButton+Addition.m in Sources */,
+				C82414691DB67D3600DB7813 /* YOHOConst.m in Sources */,
+				C82414611DB67D1300DB7813 /* UIImage+Additions.m in Sources */,
+				C824145D1DB67D1300DB7813 /* NSObject+Formula.m in Sources */,
+				C82414601DB67D1300DB7813 /* UIColor+Addition.m in Sources */,
+				C82414231DB67A9A00DB7813 /* YOHOCommentBigPicViewController.m in Sources */,
+				C82413E41DB6792500DB7813 /* AppDelegate.m in Sources */,
+				C82414271DB67A9A00DB7813 /* YOHOARHomeBusinessDistrictModel.m in Sources */,
+				C82414281DB67A9A00DB7813 /* YOHOARHomeBusinessStoreModel.m in Sources */,
+				C82414291DB67A9A00DB7813 /* YOHOARHomeCommentModel.m in Sources */,
+				C82414621DB67D1300DB7813 /* UIImage+Blur.m in Sources */,
+				C82414651DB67D1300DB7813 /* UILabel+Addition.m in Sources */,
+				C824142F1DB67A9A00DB7813 /* YOHOARHomeLoadDataTool.m in Sources */,
+				C82413E11DB6792500DB7813 /* main.m in Sources */,
+				C82414641DB67D1300DB7813 /* UIImageView+YOHOUseCacheImage.m in Sources */,
+				C82414361DB67A9A00DB7813 /* YOHOARHomeCommentPicView.m in Sources */,
+				C824145C1DB67D1300DB7813 /* NSObject+Addition.m in Sources */,
+				C82414661DB67D1300DB7813 /* UIView+Addition.m in Sources */,
+				C82414371DB67A9B00DB7813 /* YOHOARHomeCommentToolView.m in Sources */,
+				C824145E1DB67D1300DB7813 /* NSString+YOHODealWithUrlString.m in Sources */,
+				C824145B1DB67D1300DB7813 /* NSAttributedString+Additon.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C82413E81DB6792500DB7813 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C82413E91DB6792500DB7813 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C82413ED1DB6792500DB7813 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C82413EE1DB6792500DB7813 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C82413F11DB6792500DB7813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C82413F21DB6792500DB7813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C82413F41DB6792500DB7813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B599FBFA07820D02F27B901E /* Pods-CustomModal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 55EMPZWFA4;
+				GCC_PREFIX_HEADER = "CustomModal/CustomModal-PCH.pch";
+				INFOPLIST_FILE = CustomModal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ari.CustomModal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C82413F51DB6792500DB7813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D63DE385652F81AA0D1AB959 /* Pods-CustomModal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 55EMPZWFA4;
+				GCC_PREFIX_HEADER = "CustomModal/CustomModal-PCH.pch";
+				INFOPLIST_FILE = CustomModal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ari.CustomModal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C82413D71DB6792400DB7813 /* Build configuration list for PBXProject "CustomModal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C82413F11DB6792500DB7813 /* Debug */,
+				C82413F21DB6792500DB7813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C82413F31DB6792500DB7813 /* Build configuration list for PBXNativeTarget "CustomModal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C82413F41DB6792500DB7813 /* Debug */,
+				C82413F51DB6792500DB7813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C82413D41DB6792400DB7813 /* Project object */;
+}
